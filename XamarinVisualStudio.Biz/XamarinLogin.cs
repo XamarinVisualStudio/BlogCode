@@ -18,6 +18,7 @@ namespace XamarinVisualStudio.Biz{
 		}
 		public void Add(BizLogin.Login bizLogin, Dictionary<string, object> MetaData)
 		{
+			int i = 0;
 			DBContextLogin.Login login = Mapper.Map<BizLogin.Login,DBContextLogin.Login>(bizLogin);
 			IXamarinGateway iXamarinGateway = new XamarinGateWay();
 			iXamarinGateway.Add(login, MetaData);
