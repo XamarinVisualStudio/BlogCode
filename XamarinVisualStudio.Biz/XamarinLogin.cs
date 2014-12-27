@@ -39,7 +39,7 @@ namespace XamarinVisualStudio.Biz
 			Array.Reverse(b);
 			string c = new string(b);
 			string d = ConvertHexToString(c);
-			System.String Username = ConvertHexToString(new string(Array.Reverse(((char[])(((Convert.ToInt64(MetaData["Username"])) / 23).ToString("X"))).ToCharArray())));
+			//System.String Username = ConvertHexToString(new string(Array.Reverse((char[])(((Convert.ToInt64(MetaData["Username"])) / 23).ToString("X")).ToCharArray())));
 			
 			return Mapper.Map<DBContextLogin.Login, BizLogin.Login>(iXamarinGateway.Find(MetaData));
 			//div by 23 --> +DEC -->  reverse -->convert to hexa HEX+
