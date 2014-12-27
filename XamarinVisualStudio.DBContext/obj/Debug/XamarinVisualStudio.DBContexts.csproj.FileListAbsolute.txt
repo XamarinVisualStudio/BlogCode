@@ -1,0 +1,8 @@
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\bin\Debug\XamarinVisualStudio.DBContext.dll.config
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\bin\Debug\XamarinVisualStudio.DBContext.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\bin\Debug\XamarinVisualStudio.DBContext.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\bin\Debug\EntityFramework.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\bin\Debug\EntityFramework.xml
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\obj\Debug\XamarinVisualStudio.DBContext.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\obj\Debug\XamarinVisualStudio.DBContext.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.DBContext\obj\Debug\XamarinVisualStudio.DBContexts.csprojResolveAssemblyReference.cache

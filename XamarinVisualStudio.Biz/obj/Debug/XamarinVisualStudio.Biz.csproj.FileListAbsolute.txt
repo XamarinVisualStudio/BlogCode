@@ -1,0 +1,15 @@
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Biz.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Biz.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\AutoMapper.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Biz.Data.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Cxn.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.DBContext.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\EntityFramework.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Biz.Data.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.Cxn.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\XamarinVisualStudio.DBContext.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\AutoMapper.xml
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\bin\Debug\EntityFramework.xml
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\obj\Debug\XamarinVisualStudio.Biz.csprojResolveAssemblyReference.cache
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\obj\Debug\XamarinVisualStudio.Biz.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz\obj\Debug\XamarinVisualStudio.Biz.pdb

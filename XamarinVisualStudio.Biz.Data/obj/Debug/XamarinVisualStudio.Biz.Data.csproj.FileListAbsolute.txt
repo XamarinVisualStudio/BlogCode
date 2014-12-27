@@ -1,0 +1,4 @@
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz.Data\bin\Debug\XamarinVisualStudio.Biz.Data.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz.Data\bin\Debug\XamarinVisualStudio.Biz.Data.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz.Data\obj\Debug\XamarinVisualStudio.Biz.Data.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Biz.Data\obj\Debug\XamarinVisualStudio.Biz.Data.pdb

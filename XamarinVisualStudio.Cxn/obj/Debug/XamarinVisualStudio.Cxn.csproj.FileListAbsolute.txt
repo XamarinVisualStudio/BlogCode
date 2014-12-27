@@ -1,0 +1,9 @@
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\XamarinVisualStudio.Cxn.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\XamarinVisualStudio.Cxn.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\EntityFramework.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\XamarinVisualStudio.DBContext.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\XamarinVisualStudio.DBContext.pdb
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\bin\Debug\EntityFramework.xml
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\obj\Debug\XamarinVisualStudio.Cxn.csprojResolveAssemblyReference.cache
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\obj\Debug\XamarinVisualStudio.Cxn.dll
+C:\Users\sbshetty\Documents\Visual Studio 2013\Projects\XamarinVisualStudio\XamarinVisualStudio.Cxn\obj\Debug\XamarinVisualStudio.Cxn.pdb

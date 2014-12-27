@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVisualStudio.WebUI", "XamarinVisualStudio\XamarinVisualStudio.WebUI.csproj", "{FA814253-8661-487A-AB9B-85B1641BC994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{7F9C4143-DDF4-4FBA-BF16-98E6B99930FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{A0CA5B15-7076-4D80-A860-455C45ADCBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVisualStudio.Cxn", "XamarinVisualStudio.Cxn\XamarinVisualStudio.Cxn.csproj", "{18126F63-0CC6-4B87-9E85-CF0EB6B4864C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVisualStudio.DBContexts", "XamarinVisualStudio.DBContext\XamarinVisualStudio.DBContexts.csproj", "{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biz", "Biz", "{E3DD9043-E067-4E80-B706-E45DDCA3D818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVisualStudio.Biz", "XamarinVisualStudio.Biz\XamarinVisualStudio.Biz.csproj", "{92FA3D81-16B7-4FF0-A944-A49B407094CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{01D7CB87-5A54-4F5E-9807-DCA6BAE13D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinVisualStudio.Biz.Data", "XamarinVisualStudio.Biz.Data\XamarinVisualStudio.Biz.Data.csproj", "{64F78D93-40BA-47DC-9ED2-B9953B90AD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA814253-8661-487A-AB9B-85B1641BC994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA814253-8661-487A-AB9B-85B1641BC994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA814253-8661-487A-AB9B-85B1641BC994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA814253-8661-487A-AB9B-85B1641BC994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18126F63-0CC6-4B87-9E85-CF0EB6B4864C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18126F63-0CC6-4B87-9E85-CF0EB6B4864C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18126F63-0CC6-4B87-9E85-CF0EB6B4864C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18126F63-0CC6-4B87-9E85-CF0EB6B4864C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FA3D81-16B7-4FF0-A944-A49B407094CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FA3D81-16B7-4FF0-A944-A49B407094CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FA3D81-16B7-4FF0-A944-A49B407094CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FA3D81-16B7-4FF0-A944-A49B407094CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F78D93-40BA-47DC-9ED2-B9953B90AD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F78D93-40BA-47DC-9ED2-B9953B90AD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F78D93-40BA-47DC-9ED2-B9953B90AD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F78D93-40BA-47DC-9ED2-B9953B90AD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA814253-8661-487A-AB9B-85B1641BC994} = {7F9C4143-DDF4-4FBA-BF16-98E6B99930FE}
+		{18126F63-0CC6-4B87-9E85-CF0EB6B4864C} = {A0CA5B15-7076-4D80-A860-455C45ADCBA1}
+		{D681973F-5022-4AC0-8AF5-4DDF2AE49A3C} = {A0CA5B15-7076-4D80-A860-455C45ADCBA1}
+		{92FA3D81-16B7-4FF0-A944-A49B407094CA} = {E3DD9043-E067-4E80-B706-E45DDCA3D818}
+		{01D7CB87-5A54-4F5E-9807-DCA6BAE13D42} = {E3DD9043-E067-4E80-B706-E45DDCA3D818}
+		{64F78D93-40BA-47DC-9ED2-B9953B90AD8B} = {01D7CB87-5A54-4F5E-9807-DCA6BAE13D42}
+	EndGlobalSection
+EndGlobal
