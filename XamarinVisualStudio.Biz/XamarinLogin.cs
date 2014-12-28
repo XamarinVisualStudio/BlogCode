@@ -33,19 +33,14 @@ namespace XamarinVisualStudio.Biz
 		}
 		public BizLogin.Login Validate(Dictionary<string, object> MetaData)
 		{
-			MetaData.Add("Username", "58228594161");
-			long a = (Convert.ToInt64(MetaData["Username"])) / 23;
-			char[] b = a.ToString("X").ToCharArray();
-			Array.Reverse(b);
-			string c = new string(b);
-			string d = ConvertHexToString(c);
-			//System.String Username = ConvertHexToString(new string(Array.Reverse((char[])(((Convert.ToInt64(MetaData["Username"])) / 23).ToString("X")).ToCharArray())));
-			
-			return Mapper.Map<DBContextLogin.Login, BizLogin.Login>(iXamarinGateway.Find(MetaData));
-			//div by 23 --> +DEC -->  reverse -->convert to hexa HEX+
+			MetaData["Username"] = DecryptString(MetaData);
+			return Mapper.Map<DBContextLogin.Login, BizLogin.Login>(iXamarinGateway.Find(MetaData));			
 		}
-		private static string ConvertHexToString(string HexValue)
+		private static string DecryptString(Dictionary<string, object> MetaData)
 		{
+			char[] b = ((Convert.ToInt64(MetaData["Username"])) / 23).ToString("X").ToCharArray();
+			Array.Reverse(b);
+			string HexValue = new string(b);		
 			string StrValue = "";
 			while (HexValue.Length > 0)
 			{
@@ -53,6 +48,7 @@ namespace XamarinVisualStudio.Biz
 				HexValue = HexValue.Substring(2, HexValue.Length - 2);
 			}
 			return StrValue;
+
 		}
 	}
 }
