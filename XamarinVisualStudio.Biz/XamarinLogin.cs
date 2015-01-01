@@ -34,7 +34,7 @@ namespace XamarinVisualStudio.Biz
 		}
 		public BizLogin.Login Validate(Dictionary<string, object> MetaData)
 		{			
-			MetaData["Username"] = DecryptLoginString(MetaData);
+			//MetaData["Username"] = DecryptLoginString(MetaData);
 			MetaData["UserName"] = "test";
 			MetaData["Password"] = "test";
 			DBContexts.Entity.Login _login = iXamarinGateway.Find(MetaData);

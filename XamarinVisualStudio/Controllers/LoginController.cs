@@ -16,7 +16,8 @@ namespace XamarinVisualStudio.Controllers
 	{
 		public LoginController()
 		{
-			Mapper.CreateMap<ModelLogin.Login, BizLogin.Login>();
+			Mapper.CreateMap<BizLogin.Login, ModelLogin.Login>()
+				.ForMember(x => x.UserName, x => x.MapFrom(z => z.UserName));
 		}
 		XamarinLogin xamarinLogin = new XamarinLogin();
 		//
@@ -51,7 +52,9 @@ namespace XamarinVisualStudio.Controllers
 			Metadata.Add("Password", Password);
 			BizLogin.Login _login = xamarinLogin.Validate(Metadata);
 			ModelLogin.Login _modelLogin = new ModelLogin.Login();
-			Mapper.Map<ModelLogin.Login, BizLogin.Login>(_modelLogin);
+			Mapper.Map<BizLogin.Login, ModelLogin.Login>(_login, _modelLogin);
+			_modelLogin.BlogText = "TestBlog";
+			_modelLogin.BlogTitle = "TestBlogTitle";
 			if (_login != null)
 				return View("AddPost", "AuthorMainPage", _modelLogin);
 			else
