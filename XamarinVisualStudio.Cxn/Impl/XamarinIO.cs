@@ -11,10 +11,10 @@ namespace XamarinVisualStudio.Cxn.Impl
 	{
 		public void Add(DBContexts.Entity.Login InsertData)
 		{
-			using(var context = new  DBContexts.XamarinsDB())
+			using (var context = new DBContexts.XamarinsDB())
 			{
 				context.DBLogin.Add(InsertData);
-				context.SaveChanges();				
+				context.SaveChanges();
 			}
 		}
 		public void Update(DBContexts.Entity.Login InsertData)
@@ -26,11 +26,13 @@ namespace XamarinVisualStudio.Cxn.Impl
 				context.SaveChanges();
 			}
 		}
-		public DBContexts.Entity.Login Find(Dictionary<string,object> Metadata)
+		public DBContexts.Entity.Login Find(Dictionary<string, object> Metadata)
 		{
-			using(var context = new DBContexts.XamarinsDB())
+			string str = Convert.ToString(Metadata["UserName"]);
+			string pwd = Convert.ToString(Metadata["Password"]);
+			using (var context = new DBContexts.XamarinsDB())
 			{
-				DBContexts.Entity.Login UserInfo = (DBContexts.Entity.Login)context.DBLogin.Where(m => m.UserName == Convert.ToString(Metadata["UserName"]) && m.UserPassword == Convert.ToString(Metadata["Password"]));
+				var UserInfo = context.DBLogin.Where(m => m.UserName == str && m.UserPassword == pwd).FirstOrDefault();
 				return UserInfo;
 			}
 		}

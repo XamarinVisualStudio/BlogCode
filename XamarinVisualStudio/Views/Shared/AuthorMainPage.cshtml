@@ -1,0 +1,13 @@
+﻿@model XamarinVisualStudio.Models.Login
+
+@{
+	ViewBag.Title = "AuthorMainPage";
+}
+
+<h2>AuthorMainPage</h2>
+@Html.BeginForm("AuthorLogin", "Login")
+{
+Welcome @Html.Label(Model.UserName)
+<input type="submit" title="Click" />
+}
+@RenderBody()
