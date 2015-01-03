@@ -1,8 +1,9 @@
 ﻿ @model XamarinVisualStudio.Models.BlogData
 <br />
-<span>Title : </span>@Html.TextBoxFor(Model=>Model.BlogTitle)
-<span>Enter the Text : </span>@Html.TextBoxFor(Model=>Model.BlogText)
+
 @Html.BeginForm("SaveBlog","Save")
 {
+<span>Title : </span>@Html.TextBoxFor(Model => Model.BlogTitle)
+<span>Enter the Text : </span>@Html.TextBoxFor(Model => Model.BlogText)
 <input type="submit" >Submit</input>
 }

@@ -5,10 +5,10 @@
 }
 
 <h2>AuthorMainPage</h2>
-Welcome @Html.Label(Model.UserName)
+
 @Html.BeginForm("AuthorLogin", "Login")
 {
-
+Welcome @Html.Label(Model.UserName)
 <input type="submit" title="Click" />
 }
 @RenderBody()
