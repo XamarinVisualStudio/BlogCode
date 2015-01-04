@@ -14,6 +14,7 @@ namespace XamarinVisualStudio.Models
 		public Guid rowguid { get; set; }
 		public string BlogTitle { get; set; }
 		public string BlogText { get; set; }
+        public bool UltraZipTech { get; set; }
 		public DateTime DTCreate { get; set; }
 		public DateTime DTUpdate { get; set; }
 	}
